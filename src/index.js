@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import pic from '../src/images.png'
+
 
 const page = (
     <div>
-        <img src={pic} width = "200px" alt='BigCo Inc logo'/>
+        <img src="./logo192.png" width = "40px" alt='BigCo Inc logo'/>
         <h1>Fun facts about React</h1>
         <ul>
-            <li>It's composbile</li>
-            <li>It's declarative</li>
-            <li>It's a hireable skill</li>
-            <li>It's actively maintaind by skilled people</li>
+            <li>Was first released in 2013</li>
+            <li>Was originally created bty Jordan Walke</li>
+            <li>Has over 100k stars on GitHub</li>
+            <li>It's maintained by Facebook</li>
+            <li>Powsers thousands of enterprise apps, including mobile apps</li>
         </ul>
     </div>
 )
